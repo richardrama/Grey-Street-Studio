@@ -1,0 +1,216 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+/* Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgba(128, 128, 128, 0.4);
+}
+
+.max-width {
+    padding: 0 70px;
+
+}
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    z-index: 99;
+}
+
+.navbar .max-width {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    padding-top: 20px;
+}
+
+.navbar .logo {
+    padding-top: 2px;
+}
+
+.navbar .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+
+.navbar .navigation .social a {
+    margin: 0px 4px;
+    width: 27px;
+    height: 27px;
+}
+
+.navbar .navigation .menu {
+    width: 949px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navigation .menu li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.navbar .navigation .menu li a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: normal;
+    text-decoration: none;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.05 )), url("assets/main-photo.png") no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 908px;
+}
+
+/* Second Section */
+.second .max-width{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 71px;
+    padding-top: 66px;
+}
+
+.second .max-width .title {
+    font-size: 48px;
+    font-family: 'playfair display';
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+
+.second .max-width .isi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.second .max-width .isi .artikel {
+    width: 448px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+}
+
+.second .max-width .isi .artikel .judul-artikel {
+    color: #7d7d7d;
+    font-family: 'poppins';
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 28px;
+}
+
+.second .max-width .isi .artikel .isi-artikel {
+    width: 418px;
+    color: #7d7d7d;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    overflow-wrap: break-word;
+    margin-top: 20px;
+}
+
+.second .max-width .isi .artikel span{
+    text-align: right;
+    margin-top: 6px;
+}
+
+.second .max-width .isi .artikel a{
+    color: #F69229;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: none;
+    position: relative;
+    text-align: right;
+    margin-top: 6px;
+    border-bottom: 1px solid #F69229;
+}
+
+.button-read-more {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-read-more button{
+    margin-top: 36px;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'poppins';
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 45px;
+    border-radius: 10px;
+    background: #F69229;
+    cursor: pointer;
+    margin-bottom: 45px;
+}
+
+/* Footer */
+.footer .max-width{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 72px;
+    background-color: black;
+    color: white;
+}
+
+.footer .max-width .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'lato';
+}
+
+.footer .max-width .contact .contact-title{
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+
+.footer .max-width .contact .phone,
+.footer .max-width .contact .email {
+    font-weight: 100;
+    font-size: 18px;
+    color: #ffffffa2;
+}
+
+.social-copyright {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.social-copyright .social{
+    margin-bottom: 64px;
+}
